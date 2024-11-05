@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css"; 
+import InstagramLogo from "../assets/Instagram_logo_2016.svg"; 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +14,8 @@ const Navbar = () => {
             <div className="burger-menu" onClick={toggleMenu}>
                 <span>&#9776;</span> 
             </div>
-            <div className="navbar-brand">
-                <img src="" alt="" /> 
+            <div className="navbar-image">
+                <img src={InstagramLogo} alt="Instagram Logo" width="40" /> 
             </div>
             <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
                 <li>

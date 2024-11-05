@@ -6,9 +6,11 @@
     background-color: #AFC8AD;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
+.navbar-image {
+    width: 50px;
+    height: auto;
+    border-radius: 50%; 
+    margin-left: auto; 
 }
 
 .navbar-links {
