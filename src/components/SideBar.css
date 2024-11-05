@@ -1,0 +1,14 @@
+
+
+.sidebar-container {
+    width: 300px;
+    background-color: #F9F8F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item-container {
+    margin-top: 30px;
+}
