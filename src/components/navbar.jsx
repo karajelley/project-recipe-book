@@ -1,13 +1,22 @@
-import React from 'react';
-import './navbar.css'; 
+import React, { useState } from 'react';
+import "./Navbar.css"; 
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <nav className="navbar">
-            <div className="navbar-brand">
-                <a href="/">Recipe Book</a> 
+            <div className="burger-menu" onClick={toggleMenu}>
+                <span>&#9776;</span> 
             </div>
-            <ul className="navbar-links">
+            <div className="navbar-brand">
+                <img src="" alt="" /> 
+            </div>
+            <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
                 <li>
                     <a href="/recipes">Recipes</a> 
                 </li>
