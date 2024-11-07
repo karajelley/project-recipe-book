@@ -1,18 +1,20 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
-import SideBar from "./components/SideBar";
-import Content from "./components/Content";
+import Navbar from "./components/Nav-Bar/NavBar";
+import Footer from "./components/Footer-map/Footer";
+import Content from "./components/content/Content";
+
 import "./App.css";
+
 function App() {
   return (
     <>
       <Navbar />
-      <section id="contact"></section>
-      <div>
+      <div className="main-section">
         <Content />
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
     </>
   );
 }

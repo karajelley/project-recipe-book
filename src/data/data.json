@@ -81,7 +81,8 @@
     "name": "Hot Dog",
     "calories": 275,
     "image": "https://i.imgur.com/QqVHdRu.jpg",
-    "servings": 1
+    "servings": 1,
+    "isCompleted": false
     },
     {
     "id": "1c6d5b5f-4e72-4136-8c6c-9cf3e3d16a65",

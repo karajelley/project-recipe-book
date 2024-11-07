@@ -1,0 +1,27 @@
+
+.recipe-card {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    img {
+        width: 150px;
+        height: 100px;
+    }
+    .low-calories {
+        background-color: rgb(139, 250, 139);
+        color: white;
+        border-radius: 10px;
+        padding: 7px;
+    }
+}
+

@@ -9,12 +9,12 @@
 .navbar-image {
     width: 50px;
     height: auto;
-    border-radius: 50%; 
-    margin-left: auto; 
+    border-radius: 50%;
+    margin-left: auto;
 }
 
 .app-logo {
-    
+    width: 100px;
 }
 
 .navbar-links {
@@ -45,21 +45,21 @@
 
 @media (max-width: 768px) {
     .burger-menu {
-        display: block; 
+        display: block;
     }
 
     .navbar-links {
-        display: none; 
+        display: none;
     }
 
     .navbar-links.open {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #8fa98d; 
+        background-color: #8fa98d;
         padding: 1rem;
     }
 
