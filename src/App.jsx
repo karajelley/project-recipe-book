@@ -1,7 +1,10 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Nav-Bar/NavBar";
 import Footer from "./components/Footer-map/Footer";
 import Content from "./components/content/Content";
+import SideBar from "./components/Side-Bar/SideBar";
+
 
 import "./App.css";
 
@@ -9,7 +12,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <form>
+      <Routes>
+{/*         <Route path="/" element={<AllRecipesPage />} />
+        <Route path="/About" element={<AboutPage />} />
+        <Route path="*" element={<ErrorPage />} /> */}
+  {/*     <Route path="/RecipeDetailsPage/:recipeID" element={<?? />} /> */}
+      </Routes>
+      {/* <form>
   <span>Create a recipe</span>
   <div class="form-group">
     <label>
@@ -44,9 +53,10 @@ function App() {
 
     <button type="submit">Create Recipe</button>
   </div>
-</form>
+</form> */}
       <div className="main-section">
-        <Content />
+        <SideBar />
+        
       </div>
       <div className="footer">
         <Footer />
