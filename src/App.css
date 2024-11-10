@@ -11,7 +11,7 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
   }
-  
+
   form span {
     font-size: 24px;
     font-weight: bold;
@@ -19,20 +19,20 @@ form {
     margin-bottom: 20px;
     text-align: center;
   }
-  
+
   .form-group {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  
+
   label {
     display: flex;
     flex-direction: column;
     font-weight: bold;
     color: #333;
   }
-  
+
   input,
   textarea {
     padding: 10px;
@@ -41,11 +41,11 @@ form {
     border-radius: 4px;
     margin-top: 5px;
   }
-  
+
   textarea {
     resize: vertical;
   }
-  
+
   button[type="submit"] {
     padding: 12px 20px;
     background-color: #28a745;
@@ -56,8 +56,12 @@ form {
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
+
   button[type="submit"]:hover {
     background-color: #218838;
   }
-  
+
+  .main-section {
+    display: flex;
+    gap: 20px;
+  }

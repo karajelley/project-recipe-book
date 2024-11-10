@@ -1,15 +1,14 @@
-import "./SideBar.css"; 
-import SideBarItem from "./SideBarItem";
+import "./SideBar.css";
 import { NavLink, Link } from "react-router-dom";
 
 function SideBar() {
     return (
         <div className="sidebar-container">
-            <div className="item-container">
-            <SideBarItem name="Recipes"/>
-            <SideBarItem name="Create Recipe"/>
-            <SideBarItem name="About Us"/>
-            </div>
+            <ul className="side-bar-items">
+                <NavLink to="/">All Recipes</NavLink>
+                <NavLink to="/CreateRecipe">Create Recipe</NavLink>
+                <NavLink to="/About">About us</NavLink>
+            </ul>
         </div>
     )
 }

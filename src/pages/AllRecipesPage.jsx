@@ -6,9 +6,9 @@ function AllRecipesPage() {
 
     return (
         <>
-            <h1>AllRecipesPage</h1>
-{/*             <RecipeData /> */}
-            
+            <h1>All Recipes</h1>
+            <RecipeData />
+
         </>
     )
 }

@@ -4,11 +4,29 @@
     width: 300px;
     background-color: #F9F8F5;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-.item-container {
+.side-bar-items {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
+
+    a {
+    text-decoration: none;
+    background-color: #F9F8F5;
+    color: #222B24;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 8px 25px;
+    }
+    a:hover {
+        background-color: #EFEEE8;
+    }
+    a.active {
+        background-color: #F2F1EB;
+        font-weight: 600;
+    }
 }
