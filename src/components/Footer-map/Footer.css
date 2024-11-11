@@ -1,16 +1,21 @@
 .footer-bar {
   background-color: #F2F1EB;
   width: 100vw;
-  height: 12rem;
+  height: 3rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  gap: 30px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  gap: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
   bottom: 0;
-  left: 0;
+  position: sticky;
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .links {

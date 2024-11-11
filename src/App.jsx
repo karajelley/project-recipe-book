@@ -7,7 +7,6 @@ import AllRecipesPage from "./pages/AllRecipesPage";
 import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
 import RecipeDetailsPage from "./pages/RecipeDetailsPage";
-import CreateRecipePage from "./pages/CreateRecipePage";
 import data from "./data/data.json";
 import "./App.css";
 
@@ -25,7 +24,6 @@ function App() {
             path="/recipe/:id"
             element={<RecipeDetailsPage data={data} />}
           />
-          <Route path="/CreateRecipe" element={<CreateRecipePage />} />
         </Routes>
       </div>
       <Footer />

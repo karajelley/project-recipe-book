@@ -6,7 +6,6 @@ function SideBar() {
         <div className="sidebar-container">
             <ul className="side-bar-items">
                 <NavLink to="/">All Recipes</NavLink>
-                <NavLink to="/CreateRecipe">Create Recipe</NavLink>
                 <NavLink to="/About">About us</NavLink>
             </ul>
         </div>
