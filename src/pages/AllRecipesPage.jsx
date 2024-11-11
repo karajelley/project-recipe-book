@@ -1,16 +1,17 @@
 
 import RecipeData from "../components/Recipe-data/RecipeData"
+import "./AllRecipesPage.css"
+import RecipeForm from "../components/Recipe-form/RecipeForm";
 
 function AllRecipesPage() {
 
 
     return (
-        <>
-            <h1>All Recipes</h1>
-            <RecipeData />
-
-        </>
-    )
+        <div className="recipes-container">
+        <RecipeData />
+        <RecipeForm />
+      </div>
+    );
 }
 
 export default AllRecipesPage;

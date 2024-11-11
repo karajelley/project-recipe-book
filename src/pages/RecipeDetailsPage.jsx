@@ -14,10 +14,10 @@ function RecipeDetailsPage({ data }) {
 
     return (
         <div className="details-container">
+            <h3>{recipe.name} - Recipe: </h3>
+            <p>Amount of Calories: {recipe.calories}</p>
+            <p>Amounts for: {recipe.servings}</p>
             <img src={recipe.image} alt={recipe.name}/>
-            <h3>{recipe.name}</h3>
-            <p>{recipe.calories}</p>
-            <p>{recipe.servings}</p>
         </div>
     )
 

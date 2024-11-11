@@ -4,18 +4,18 @@
     background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin: 30px;
+    padding: 30px;
+    margin: 20px;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     text-align: left;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     img {
-        width: 150px;
-        height: 100px;
+        width: 200px;
+        height: 150px;
     }
     .low-calories {
         background-color: rgb(139, 250, 139);

@@ -1,11 +1,13 @@
 
 
 .sidebar-container {
-    width: 300px;
+    width: 250px;
     background-color: #F9F8F5;
     height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    overflow: hidden;
+    position: sticky;
+    top: 83px;
 }
 
 .side-bar-items {

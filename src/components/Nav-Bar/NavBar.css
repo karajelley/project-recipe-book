@@ -4,6 +4,8 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: #F2F1EB;
+    position: sticky;
+    top: 0;
 }
 
 .navbar-image {
