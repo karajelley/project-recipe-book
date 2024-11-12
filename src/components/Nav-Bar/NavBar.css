@@ -6,6 +6,7 @@
     background-color: #F2F1EB;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .navbar-image {
