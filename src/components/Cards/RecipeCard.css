@@ -3,25 +3,34 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: center;
-    padding: 15px;
-    margin: 20px;
+    padding: 5px 15px 20px 15px;
+    margin: 15px;
     flex-direction: column;
     gap: 10px;
     justify-content: space-between;
     border-radius: 10px;
-    width: 250px;
+    width: 270px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     img {
-        width: 200px;
-        height: 120px;
+        width: 220px;
+        height: 150px;
+        margin: 0 auto;
     }
-    .low-calories {
-        background-color: rgb(198, 242, 198);
-        color: white;
-        width: 60px;
-        display: none;
+    .upper-part-card {
+        display: flex;
+        justify-content: space-between;
+        .low-cal-image {
+            width: 60px;
+            height: auto;
+            margin: 0;
+        }
+        .delete-button {
+            background-color: transparent;
+            color: #4d4d4db0;
+            padding-right: 20px;
+        }
     }
 
     h3 {
@@ -32,12 +41,12 @@
         font-size: 15px;
         padding-left: 20px;
     }
-    button {
-        display: flex;
-        justify-content: end;
-        background-color: transparent;
-        color: #5f5f5fb0;
-    }
+}
+
+.details-button {
+    background-color: #88AB8E;
+    text-align: center;
+    margin-left: 20px;
 }
 
 a {
@@ -47,7 +56,7 @@ a {
 }
 
 a:hover {
-    transform: scale(1.05   );
+    transform: scale(1.02   );
     transition: 200ms;
 }
 
