@@ -1,122 +1,273 @@
 [
     {
-    "id": "9e7f0d61-aa6b-418a-b56a-6418d19e6e1d",
-    "name": "Pizza",
-    "calories": 400,
-    "image": "https://i.imgur.com/eTmWoAN.png",
-    "servings": 1
+        "id": "9e7f0d61-aa6b-418a-b56a-6418d19e6e1d",
+        "name": "Pizza",
+        "calories": 400,
+        "image": "https://i.imgur.com/eTmWoAN.png",
+        "servings": 1,
+        "description": "Classic Italian dish with a tomato base, cheese, and various toppings.",
+        "preparation": "Spread sauce on dough, add cheese and toppings, bake until golden.",
+        "ingredients": [
+            "pizza dough",
+            "tomato sauce",
+            "mozzarella cheese",
+            "toppings of choice"
+        ]
     },
     {
-    "id": "37e0b31d-63f4-4d42-9f4b-e9a0fc464d60",
-    "name": "Salad",
-    "calories": 150,
-    "image": "https://i.imgur.com/DupGBz5.jpg",
-    "servings": 1
+        "id": "37e0b31d-63f4-4d42-9f4b-e9a0fc464d60",
+        "name": "Salad",
+        "calories": 150,
+        "image": "https://i.imgur.com/DupGBz5.jpg",
+        "servings": 1,
+        "description": "Fresh, mixed greens with veggies, perfect as a light meal.",
+        "preparation": "Combine fresh greens, chopped veggies, and dressing. Toss well.",
+        "ingredients": [
+            "mixed greens",
+            "cucumber",
+            "tomato",
+            "carrots",
+            "salad dressing"
+        ]
     },
     {
-    "id": "b5eb5b5f-41b8-4f1f-8844-7a1a56a17df7",
-    "name": "Sweet Potato",
-    "calories": 120,
-    "image": "https://i.imgur.com/hGraGyR.jpg",
-    "servings": 1
+        "id": "6c0f6f33-8c50-403d-9d1c-6ac9d8b77f29",
+        "name": "Gnocchi",
+        "calories": 500,
+        "image": "https://i.imgur.com/93ekwW0.jpg",
+        "servings": 1,
+        "description": "Soft Italian potato dumplings, usually served with a savory sauce.",
+        "preparation": "Boil gnocchi until it floats, then toss in sauce and serve warm.",
+        "ingredients": [
+            "gnocchi",
+            "butter",
+            "sage",
+            "Parmesan cheese"
+        ]
     },
     {
-    "id": "6c0f6f33-8c50-403d-9d1c-6ac9d8b77f29",
-    "name": "Gnocchi",
-    "calories": 500,
-    "image": "https://i.imgur.com/93ekwW0.jpg",
-    "servings": 1
+        "id": "f4b4d2bc-ff12-4f3f-b3b3-19d2f1682401",
+        "name": "Pot Roast",
+        "calories": 350,
+        "image": "https://i.imgur.com/WCzJDWz.jpg",
+        "servings": 1,
+        "description": "Slow-cooked beef roast with vegetables and rich flavors.",
+        "preparation": "Sear roast, add veggies and broth, then slow-cook until tender.",
+        "ingredients": [
+            "beef roast",
+            "carrots",
+            "potatoes",
+            "onion",
+            "beef broth"
+        ]
     },
     {
-    "id": "f4b4d2bc-ff12-4f3f-b3b3-19d2f1682401",
-    "name": "Pot Roast",
-    "calories": 350,
-    "image": "https://i.imgur.com/WCzJDWz.jpg",
-    "servings": 1
+        "id": "bf89c1db-5c5b-4262-9d1e-8a68f88c61d5",
+        "name": "Lasagna",
+        "calories": 750,
+        "image": "https://i.imgur.com/ClxOafl.jpg",
+        "servings": 1,
+        "description": "Layered pasta with meat, cheese, and marinara sauce, baked to perfection.",
+        "preparation": "Layer pasta, sauce, cheese, and meat; bake until bubbly and golden.",
+        "ingredients": [
+            "lasagna noodles",
+            "ground beef",
+            "ricotta cheese",
+            "mozzarella",
+            "marinara sauce"
+        ]
     },
     {
-    "id": "bf89c1db-5c5b-4262-9d1e-8a68f88c61d5",
-    "name": "Lasagna",
-    "calories": 750,
-    "image": "https://i.imgur.com/ClxOafl.jpg",
-    "servings": 1
+        "id": "bca9beec-43d3-48b1-9b57-793a8a8c3520",
+        "name": "Hamburger",
+        "calories": 400,
+        "image": "https://i.imgur.com/LoG39wK.jpg",
+        "servings": 1,
+        "description": "Grilled beef patty in a bun, served with various toppings.",
+        "preparation": "Grill beef patty, place on bun with toppings of choice, and enjoy.",
+        "ingredients": [
+            "ground beef",
+            "burger buns",
+            "lettuce",
+            "tomato",
+            "cheese",
+            "condiments"
+        ]
     },
     {
-    "id": "bca9beec-43d3-48b1-9b57-793a8a8c3520",
-    "name": "Hamburger",
-    "calories": 400,
-    "image": "https://i.imgur.com/LoG39wK.jpg",
-    "servings": 1
+        "id": "b777a69a-7f1c-41e8-8a4c-1d0e9e4cace8",
+        "name": "Pad Thai",
+        "calories": 475,
+        "image": "https://i.imgur.com/5ktcSzF.jpg",
+        "servings": 1,
+        "description": "Thai stir-fried noodles with vegetables, peanuts, and protein of choice.",
+        "preparation": "Stir-fry noodles with protein, sauce, veggies, and top with peanuts.",
+        "ingredients": [
+            "rice noodles",
+            "chicken or tofu",
+            "bean sprouts",
+            "peanuts",
+            "Pad Thai sauce"
+        ]
     },
     {
-    "id": "b777a69a-7f1c-41e8-8a4c-1d0e9e4cace8",
-    "name": "Pad Thai",
-    "calories": 475,
-    "image": "https://i.imgur.com/5ktcSzF.jpg",
-    "servings": 1
+        "id": "e1f87a2e-60b3-4a3f-bb48-20a396a9a94f",
+        "name": "Sarma",
+        "calories": 200,
+        "image": "https://i.imgur.com/yOlf4Fj.jpg",
+        "servings": 1,
+        "description": "Stuffed cabbage rolls filled with rice and meat.",
+        "preparation": "Fill cabbage leaves with rice and meat, roll and cook in broth.",
+        "ingredients": [
+            "cabbage leaves",
+            "ground meat",
+            "rice",
+            "onion",
+            "broth"
+        ]
     },
     {
-    "id": "d087343e-9a92-48c7-8b27-43e37491b6f5",
-    "name": "Almonds",
-    "calories": 75,
-    "image": "https://i.imgur.com/JRp4Ksx.jpg",
-    "servings": 1
+        "id": "bbfd30fd-cd75-4e3b-8fc8-3d3fd62a3c39",
+        "name": "Hot Dog",
+        "calories": 275,
+        "image": "https://i.imgur.com/QqVHdRu.jpg",
+        "servings": 1,
+        "description": "Grilled sausage in a bun, often topped with condiments.",
+        "preparation": "Grill sausage, place in bun, and top with condiments of choice.",
+        "ingredients": [
+            "hot dog bun",
+            "sausage",
+            "ketchup",
+            "mustard"
+        ]
     },
     {
-    "id": "e1f87a2e-60b3-4a3f-bb48-20a396a9a94f",
-    "name": "Sarma",
-    "calories": 200,
-    "image": "https://i.imgur.com/yOlf4Fj.jpg",
-    "servings": 1
+        "id": "1c6d5b5f-4e72-4136-8c6c-9cf3e3d16a65",
+        "name": "Chocolate Cake",
+        "calories": 490,
+        "image": "https://i.imgur.com/yrgzA9x.jpg",
+        "servings": 1,
+        "description": "Rich, moist chocolate cake with layers of frosting.",
+        "preparation": "Bake cake layers, frost with chocolate frosting, and serve.",
+        "ingredients": [
+            "flour",
+            "cocoa powder",
+            "sugar",
+            "eggs",
+            "butter",
+            "chocolate frosting"
+        ]
     },
     {
-    "id": "0ce7e4d4-1c8a-4e9f-98df-1ecb1e7b8a0b",
-    "name": "Bacon",
-    "calories": 175,
-    "image": "https://i.imgur.com/7GlqDsG.jpg",
-    "servings": 1
+        "id": "18d81b63-9f24-4c5f-a3b3-8a0b3d70f4b5",
+        "name": "Spaghetti Carbonara",
+        "calories": 620,
+        "image": "https://i.imgur.com/j8PAhQD.png",
+        "servings": 1,
+        "description": "Pasta with creamy sauce, pancetta, Parmesan, and black pepper.",
+        "preparation": "Cook pasta, mix with pancetta, egg, and cheese until creamy.",
+        "ingredients": [
+            "spaghetti",
+            "pancetta",
+            "Parmesan cheese",
+            "egg",
+            "black pepper"
+        ]
     },
     {
-    "id": "bbfd30fd-cd75-4e3b-8fc8-3d3fd62a3c39",
-    "name": "Hot Dog",
-    "calories": 275,
-    "image": "https://i.imgur.com/QqVHdRu.jpg",
-    "servings": 1,
-    "isCompleted": false
+        "id": "67f7cdb7-8f77-4a3a-9155-317c4d13c13d",
+        "name": "Chicken Tikka Masala",
+        "calories": 550,
+        "image": "https://i.imgur.com/DXJx4B0.png",
+        "servings": 1,
+        "description": "Marinated chicken in spiced tomato-based cream sauce.",
+        "preparation": "Cook marinated chicken, then simmer in tomato-based sauce.",
+        "ingredients": [
+            "chicken",
+            "yogurt",
+            "garam masala",
+            "tomato sauce",
+            "cream"
+        ]
     },
     {
-    "id": "1c6d5b5f-4e72-4136-8c6c-9cf3e3d16a65",
-    "name": "Chocolate Cake",
-    "calories": 490,
-    "image": "https://i.imgur.com/yrgzA9x.jpg",
-    "servings": 1
+        "id": "42c4a8ff-05e3-4a77-baf7-1e676ed1f7f2",
+        "name": "Beef Stroganoff",
+        "calories": 680,
+        "image": "https://i.imgur.com/f9rAmNn.png",
+        "servings": 1,
+        "description": "Beef in creamy mushroom sauce, often served with noodles.",
+        "preparation": "Sauté beef and mushrooms, add cream sauce, and serve over noodles.",
+        "ingredients": [
+            "beef",
+            "mushrooms",
+            "onion",
+            "sour cream",
+            "noodles"
+        ]
     },
     {
-    "id": "07d9616d-7a63-457c-b8a7-58f6a70a67e3",
-    "name": "Wheat Bread",
-    "calories": 175,
-    "image": "https://i.imgur.com/TsWzMfM.jpg",
-    "servings": 1
+        "id": "73b4fc90-3f6b-47c8-843f-763f6a11a456",
+        "name": "Vegetable Stir Fry",
+        "calories": 300,
+        "image": "https://i.imgur.com/BfirIL8.png",
+        "servings": 1,
+        "description": "Quick stir-fried veggies with sauce, often served with rice.",
+        "preparation": "Stir-fry vegetables in hot oil, add sauce, and serve over rice.",
+        "ingredients": [
+            "mixed vegetables",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "oil"
+        ]
     },
     {
-    "id": "d7a8f0c1-0a34-4e3b-a2d3-3c3e3f11eb19",
-    "name": "Orange",
-    "calories": 85,
-    "image": "https://i.imgur.com/abKGOcv.jpg",
-    "servings": 1
+        "id": "c4d36e24-9bd4-4811-94a3-99d61d4d2f38",
+        "name": "Ratatouille",
+        "calories": 250,
+        "image": "https://i.imgur.com/LtEn9XN.png",
+        "servings": 1,
+        "description": "French vegetable stew with tomatoes, zucchini, and eggplant.",
+        "preparation": "Layer sliced vegetables, bake with herbs and olive oil.",
+        "ingredients": [
+            "tomatoes",
+            "zucchini",
+            "eggplant",
+            "bell peppers",
+            "herbs"
+        ]
     },
     {
-    "id": "a8d111c4-50ef-4c61-8b16-17e84a86b2f4",
-    "name": "Banana",
-    "calories": 175,
-    "image": "https://i.imgur.com/BMdJhu5.jpg",
-    "servings": 1
+        "id": "b9a8b9b5-67e3-4042-8132-e69d13e1d4f7",
+        "name": "Chicken Alfredo",
+        "calories": 700,
+        "image": "https://i.imgur.com/mTEk1nK.png",
+        "servings": 1,
+        "description": "Creamy pasta with grilled chicken and Parmesan cheese.",
+        "preparation": "Cook pasta, mix with Alfredo sauce and grilled chicken.",
+        "ingredients": [
+            "fettuccine",
+            "chicken breast",
+            "heavy cream",
+            "Parmesan cheese",
+            "butter"
+        ]
     },
     {
-    "id": "62d8a0bc-1b77-4389-9e7b-2e00cace6a2e",
-    "name": "Yogurt",
-    "calories": 125,
-    "image": "https://i.imgur.com/URhdrAm.png",
-    "servings": 1
+        "id": "3c8f99ab-2f75-4e98-a7a9-0df5bb8473d5",
+        "name": "Fish Tacos",
+        "calories": 320,
+        "image": "https://i.imgur.com/qLHZz4t.png",
+        "servings": 1,
+        "description": "Soft tacos filled with seasoned fish, cabbage, and sauce.",
+        "preparation": "Season and cook fish, assemble in tortillas with toppings.",
+        "ingredients": [
+            "fish fillets",
+            "tortillas",
+            "cabbage",
+            "lime",
+            "sour cream"
+        ]
     }
-    ]
+]

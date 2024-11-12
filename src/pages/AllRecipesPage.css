@@ -1,6 +1,10 @@
 .recipes-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100vh;
+
+
 
   h1{
     text-align: center;

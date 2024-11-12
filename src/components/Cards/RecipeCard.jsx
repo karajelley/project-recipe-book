@@ -8,27 +8,24 @@ function RecipeCard({
 }) {
   return (
     <>
+        <NavLink to={`/recipe/${id}`}>
       <div className="recipe-card">
-        <img src={image} alt="" />
-        <h3>{name}</h3>
-        <p>{calories}</p>
-        <p>{servings} person</p>
-        <p>
-          {" "}
-          <NavLink to={`/recipe/${id}`}>Go to Recipe</NavLink>
-        </p>
-        <div className="low-calories">
-          {" "}
-          {calories <= 350 && <p>Low-Cal</p>}{" "}
-        </div>
         <button
           onClick={() => {
             deleteRecipe(id);
           }}
         >
-          🗑️
+          X
         </button>
-      </div>
+        <img src={image} alt="" />
+          <div className="low-calories">
+          {calories <= 350 && <p>Low-Cal</p>}
+          </div>
+          <h3>{name}</h3>
+          <p>{calories}</p>
+          <p>{servings} person</p>
+          </div>
+        </NavLink>
     </>
   );
 }
