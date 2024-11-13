@@ -28,8 +28,14 @@
         }
         .delete-button {
             background-color: transparent;
-            color: #4d4d4db0;
+            color: rgb(157, 157, 157); 
             padding-right: 20px;
+        }
+
+        .delete-button:hover {
+            transform: scale(1.08);
+            transition: 500ms;
+            color: #4d4d4db0;
         }
     }
 
