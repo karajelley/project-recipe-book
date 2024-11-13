@@ -1,12 +1,31 @@
-.recipes-container{
+.container{
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-left: 250px;
-  
+  justify-content: center;
+  flex-direction: row;
 
 
   h1{
     text-align: center;
   }
+}
+
+ .recipe-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    gap: 35px;
+    width: 100vh;
+    overflow-y: auto;
+
+    button {
+        background-color: none;
+        border-style: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
 }

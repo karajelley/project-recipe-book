@@ -7,26 +7,32 @@ import AllRecipesPage from "./pages/AllRecipesPage";
 import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
 import RecipeDetailsPage from "./pages/RecipeDetailsPage";
-import data from "./data/data.json";
+import recipeData from "./data/data.json";
+import { useState } from "react";
 import "./App.css";
 
+
 function App() {
- 
+  const [data, setData] = useState(recipeData)
 
-
+  
   return (
     <>
       <Navbar />
-      <div className="main-section">
+      <div>
         <SideBar />
         <Routes>
-          <Route path="/" element={<AllRecipesPage />} />
+          <Route path="/" element={<AllRecipesPage data={data} setData = {setData}/>}  />
           <Route path="/About" element={<AboutPage />} />
           <Route path="*" element={<ErrorPage />} />
           <Route
             path="/recipe/:id"
             element={<RecipeDetailsPage data={data} />}
           />
+{/*           <Route
+            path="/edit-recipe/:id"
+            element={<EditRecipePage data={data} />}
+          /> */}
         </Routes>
       </div>
       <Footer />

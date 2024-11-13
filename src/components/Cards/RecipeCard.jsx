@@ -3,9 +3,15 @@ import "./RecipeCard.css";
 
 
 function RecipeCard({
-  food: { id, name, calories, servings, image },
-  deleteRecipe,
+  food: { id, name, calories, servings, image }, data, setData
 }) {
+
+  function deleteRecipe(recipe) {
+    const filterData = data.filter(food => food.id !== recipe)
+    return setData(filterData);
+  }
+
+
   return (
     <>
         <div className="recipe-card">
