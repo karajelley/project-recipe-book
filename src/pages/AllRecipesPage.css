@@ -1,31 +1,31 @@
 .container{
+  margin-left: 300px;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
-  justify-content: center;
-  flex-direction: row;
+  height: 100vh;
+  width: 80vw;
 
-
-  h1{
-    text-align: center;
-  }
 }
 
- .recipe-container{
+ .recipes-container{
     margin-top: 20px;
+    margin-right: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    gap: 35px;
-    width: 100vh;
+    gap: 10px;
     overflow-y: auto;
 
     button {
-        background-color: none;
         border-style: none;
         cursor: pointer;
         font-size: 18px;
     }
+
+.form-container {
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
 
 }
