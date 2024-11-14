@@ -93,7 +93,7 @@ function App() {
           />
           <Route path="/About" element={<AboutPage />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/recipe/:id" element={<RecipeDetailsPage data={data} />} />
+          <Route path="/recipe/:id" element={<RecipeDetailsPage data={data} setData={setData}/>} />
         </Routes>
       </div>
       <Footer />
