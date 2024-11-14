@@ -41,7 +41,7 @@ function AboutPage() {
                 (window.location.href = "https://github.com/karajelley")
               }
             >
-              <img src="src/assets/github-icon-100px.png" alt="Github Logo" />
+              <img className="about-buttons-image" src="src/assets/github-icon-100px.png" alt="Github Logo" />
             </button>
             <button
               className="about-buttons"
@@ -50,7 +50,7 @@ function AboutPage() {
                   "https://www.linkedin.com/in/karajelley/")
               }
             >
-              <img
+              <img className="about-buttons-image"
                 src="src/assets/linkedin-icon-100px.png"
                 alt="Linkedin Logo"
               />
@@ -75,7 +75,7 @@ function AboutPage() {
                 (window.location.href = "https://github.com/phsworks")
               }
             >
-              <img src="src/assets/github-icon-100px.png" alt="Github Logo" />
+              <img className="about-buttons-image"src="src/assets/github-icon-100px.png" alt="Github Logo" />
             </button>
             <button
               className="about-buttons"
@@ -84,7 +84,7 @@ function AboutPage() {
                   "https://www.linkedin.com/in/piet-hein-schouten-4a2b451bb/")
               }
             >
-              <img
+              <img className="about-buttons-image"
                 src="src/assets/linkedin-icon-100px.png"
                 alt="Linkedin Logo"
               />
@@ -92,7 +92,7 @@ function AboutPage() {
           </div>
         </div>
         <div className="team-card">
-          <img className="member-img" src="src/assets/user-image.png" alt="" />
+          <img className="member-img" src="src/assets/user-image (1).png"alt="" />
           <h2>Diego Cisneros</h2>
           <p>
             As an aspiring web developer, I'm diving into this course to expand
@@ -109,7 +109,7 @@ function AboutPage() {
                 (window.location.href = "https://github.com/Kasper1-2")
               }
             >
-              <img src="src/assets/github-icon-100px.png" alt="Github Logo" />
+              <img className="about-buttons-image" src="src/assets/github-icon-100px.png" alt="Github Logo" />
             </button>
             <button
               className="about-buttons"
@@ -118,7 +118,7 @@ function AboutPage() {
                   "https://www.linkedin.com/in/dfcisnerosg/")
               }
             >
-              <img
+              <img className="about-buttons-image"
                 src="src/assets/linkedin-icon-100px.png"
                 alt="Linkedin Logo"
               />

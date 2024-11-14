@@ -10,7 +10,7 @@
   padding-bottom: 40px;
   padding-left: 50px;
   bottom: 0;
-  position: sticky;
+  position: fixed;
 
   img {
     height: 50px;

@@ -52,7 +52,7 @@ function RecipeForm({ formData, handleFormChange, handleFormSubmit }) {
         placeholder="Ingredients (comma separated)"
         required
       />
-      <button type="submit">Add Recipe</button>
+      <button className="form-submit-button" type="submit">Add Recipe</button>
     </form>
   );
 }

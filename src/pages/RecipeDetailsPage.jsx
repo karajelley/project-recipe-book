@@ -29,32 +29,43 @@ function RecipeDetailsPage({ data , setData}) {
   };
 
   return (
-<div className="details-container">{!isEditing ? (      
-      <article>
-        <h3>{recipe.name} - Recipe:</h3>
+<div className="details-container">
+<Link className="back-link" to="/">Back  </Link> 
+  {!isEditing ? (      
+        <article>
+          <section>
+
+        <div className="details-buttons">
+          <h3>{recipe.name} - Recipe:</h3>
+          <button className="edit-button" onClick={() => setIsEditing(!isEditing)}>Edit Recipe</button>
+        </div>
+
+        <div className="prep-container">
         <p>Description: {recipe.description}</p>
         <p>Ingredients: {recipe.ingredients.join(", ")}</p>
         <p>Prep: {recipe.preparation}</p>
-        <p>Servings: {servings}</p>
-
-        <div className="servings-controls">
-          <button onClick={handleDecreaseServings}>-</button>
-          <button onClick={handleIncreaseServings}>+</button>
         </div>
 
-        <p>Calories: {calories}</p>
-        <img src={recipe.image} alt={recipe.name} />
+        <div className="servings-controls">
+          <p>Calories: {calories}</p>
+          <p >Servings: {servings}</p>
+          <button className="decrease-button" onClick={handleDecreaseServings}>-</button>
+          <button className="increase-button" onClick={handleIncreaseServings}>+</button>
+          </div>
+          </section>
         
-        <button onClick={() => setIsEditing(!isEditing)}>Edit</button>
+    
+      <img className="images" src={recipe.image} alt={recipe.name} />
+        
       </article>
 ) : (
   <article>
   <EditForm recipe={recipe} setData={setData} />
-  <button onClick={() => setIsEditing(!isEditing)}>Cancel</button>
+
 </article>
 )}
 
-<Link to="/">Back</Link> 
+
 
     </div>
   );

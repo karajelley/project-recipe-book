@@ -2,7 +2,7 @@ import Github from "/src/assets/github.png"
 
 function GithubImage() {
   return (
-    <a href="#">
+    <a href="https://github.com/karajelley/project-recipe-book">
       <img
         src= {Github}
         alt="Github-Image"

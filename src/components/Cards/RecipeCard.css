@@ -17,6 +17,7 @@
         width: 220px;
         height: 150px;
         margin: 0 auto;
+        border-radius: 10px;
     }
     .upper-part-card {
         display: flex;
@@ -30,6 +31,7 @@
             background-color: transparent;
             color: rgb(157, 157, 157); 
             padding-right: 20px;
+            font-size: 14px;
         }
 
         .delete-button:hover {
@@ -51,6 +53,7 @@
 
 .details-button {
     background-color: #88AB8E;
+    color: white;
     text-align: center;
     margin-left: 20px;
 }
