@@ -2,10 +2,14 @@ import "../pages/RecipeDetails.css";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import EditForm from "../components/Recipe-form/EditForm";
 
-function RecipeDetailsPage({ data }) {
+function RecipeDetailsPage({ data , setData}) {
   const { id } = useParams();
   const recipe = data.find((recipe) => recipe.id === id);
+
+  const [isEditing, setIsEditing] = useState(false);
 
   const [servings, setServings] = useState(recipe.servings);
   const [calories, setCalories] = useState(recipe.calories);
@@ -25,7 +29,7 @@ function RecipeDetailsPage({ data }) {
   };
 
   return (
-    <div className="details-container">
+<div className="details-container">{!isEditing ? (      
       <article>
         <h3>{recipe.name} - Recipe:</h3>
         <p>Description: {recipe.description}</p>
@@ -41,10 +45,17 @@ function RecipeDetailsPage({ data }) {
         <p>Calories: {calories}</p>
         <img src={recipe.image} alt={recipe.name} />
         
-        <NavLink to={`/edit-recipe/${id}`}>
-          <button>Edit</button>
-        </NavLink>
+        <button onClick={() => setIsEditing(!isEditing)}>Edit</button>
       </article>
+) : (
+  <article>
+  <EditForm recipe={recipe} setData={setData} />
+  <button onClick={() => setIsEditing(!isEditing)}>Cancel</button>
+</article>
+)}
+
+<Link to="/">Back</Link> 
+
     </div>
   );
 }
