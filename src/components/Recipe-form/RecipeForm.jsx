@@ -1,8 +1,9 @@
 import React from "react";
+import "./RecipeForm.css"
 
 function RecipeForm({ formData, handleFormChange, handleFormSubmit }) {
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form className="recipe-form"onSubmit={handleFormSubmit}>
       <input
         name="name"
         value={formData.name}

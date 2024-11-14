@@ -36,6 +36,7 @@ function AboutPage() {
           </p>
           <div className="button-div">
             <button
+            className="about-buttons"
               onClick={() =>
                 (window.location.href = "https://github.com/karajelley")
               }

@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
 import RecipeDetailsPage from "./pages/RecipeDetailsPage";
 import recipeData from "./data/data.json";
+import EditForm from "./components/Recipe-form/EditForm";
 import "./App.css";
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
     localStorage.setItem("recipes", JSON.stringify(data));
   }, [data]);
 
-  // Form state
+  // Form state for adding new recipes
   const [formData, setFormData] = useState({
     name: "",
     calories: "",
@@ -38,13 +39,13 @@ function App() {
     ingredients: ""
   });
 
-  // Handle form input changes
+  // Handle form input changes for adding recipes
   const handleFormChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  // Handle form submission
+  // Handle form submission for adding recipes
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -93,7 +94,10 @@ function App() {
           />
           <Route path="/About" element={<AboutPage />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/recipe/:id" element={<RecipeDetailsPage data={data} />} />
+          <Route
+            path="/recipe/:id"
+            element={<RecipeDetailsPage data={data} setData={setData} />}
+          />
         </Routes>
       </div>
       <Footer />
