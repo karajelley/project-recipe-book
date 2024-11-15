@@ -23,6 +23,10 @@
         display: flex;
         justify-content: space-between;
         .low-cal-image {
+            /*
+                it's nice to be specific with the styling, but this level of nesting is not necessary
+                when the class is already unique
+            */
             width: 60px;
             height: auto;
             margin: 0;

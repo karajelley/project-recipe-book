@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 //import "./EditForm.css";
-
+// consider removing unnecessary comments and unused imports
 function EditForm( {recipe, setData} ) {
 
     const [name, setName] = useState(recipe.name);
@@ -11,7 +11,8 @@ function EditForm( {recipe, setData} ) {
     const [description, setDescription] = useState(recipe.description);
     const [preparation, setPreparation] = useState(recipe.preparation);
     const [ingredients, setIngredients] = useState(recipe.ingredients);
-
+    // the logic of this form is correct, but it doesn't match with the logic of the other form.
+    // to be consistent, you can use the same logic in both forms
 
     const navigate = useNavigate();
    
@@ -37,7 +38,7 @@ function EditForm( {recipe, setData} ) {
         console.log("UPDATED Recipe: ", recipe);
 
   /*       navigate(`/recipe/${recipeId}`); */
-        navigate("/");
+        navigate("/"); // good job redirecting the user to the home page after submitting the form 👍
        /*  navigate(`/recipe/${id}`); */
     }
 

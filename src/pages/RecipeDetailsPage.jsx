@@ -1,13 +1,14 @@
 import "../pages/RecipeDetails.css";
 import { useParams } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"; // This import is not used, consider removing it
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // when we have more than one Component or hook from the same library, we can import them in a single line
+// import { Link, useParams } from "react-router-dom";
 import EditForm from "../components/Recipe-form/EditForm";
 
 function RecipeDetailsPage({ data , setData}) {
-  const { id } = useParams();
-  const recipe = data.find((recipe) => recipe.id === id);
+  const { id } = useParams(); // good job using useParams to get the id from the URL 💪
+  const recipe = data.find((recipe) => recipe.id === id); // super clean implementation 👍
 
   const [isEditing, setIsEditing] = useState(false);
 
